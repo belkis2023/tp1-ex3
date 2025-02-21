@@ -17,7 +17,7 @@ function addTask(event) {
     //prevents page from loading (its default behavior)
     event.preventDefault();
 
-    //getting the task and checking it's not empty
+    //getting the task and checking mahych empty
 
     const taskTitle = document.getElementById("name");
     const taskContent = document.getElementById("content");
