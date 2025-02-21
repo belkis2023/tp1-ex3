@@ -1,0 +1,140 @@
+body {
+    background-color: #FDAB9E;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+    justify-items: stretch;
+    align-items: center;
+    align-content: center;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    border-radius: 10px;
+    background-color: #F1E3D3;
+    box-shadow: 4px 4px 10px #1B4D3E;
+
+    padding: 10%;
+    margin: 15px;
+    width: 550px;
+    height: 200px;
+
+
+
+}
+
+@media (max-width: 500px) {
+    .container {
+
+        gap: 50px;
+        width: auto;
+        height: auto;
+
+    }
+}
+
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    font-family: Trebuchet MS;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+}
+
+li {
+
+    margin: 0.5rem 0;
+    width: 170px;
+    height: 23px;
+
+
+}
+
+.tasksPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskAndButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigButtons {
+    cursor: pointer;
+    width: 110px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.bigButtons:hover {
+    background-color: #E50046;
+    /* Background color on hover */
+}
+
+
+.add {
+    text-align: center;
+}
+
+.deleteB {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.deleteB:hover {
+    background-color: #c64d71;
+    /* Background color on hover */
+}
+
+
+
+.styled-input {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+
+.styled-input:focus {
+    border-color: #E50046;
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

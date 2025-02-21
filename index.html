@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A To-Do list</title>
+</head>
+<body>
+    <h1>Organise Your Tasks</h1>
+    <div class="container">
+
+        <div class="add">
+            <form id="taskForm">
+                <label for="name">Name: </label>
+                <input class="styled-input" type="text" id="name"><br><br>
+                
+                <div class="content">
+                    <label for="content">Content: </label>
+                    <input class="styled-input" type="text" id="content"><br><br>
+                </div>
+                
+
+
+                <input type="submit" class="bigButtons" value="Add Task">
+                <input type="button" class="bigButtons" id="clear" value="Clear Tasks">
+            </form>
+        </div>
+
+        <div class="tasksPart">
+            <h2>Your Tasks</h2>
+            <p id="noTask">You have zero tasks for now.</p>
+            <ul id="tasksList">
+            </ul>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
